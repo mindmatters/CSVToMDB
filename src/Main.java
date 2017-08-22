@@ -14,7 +14,6 @@ public class Main {
 			System.out.println("Converts all CSV files in a folder in a single mdb (Access v2000) database.");
 			System.out.println("How to use:");
 			System.out.println("java -jar CSVToMDB.jar <input folder> <output .mdb file>");
-			System.out.println("Lots of fun by not using Access on Mac or Linux!!!!!!!!!!");
 		} else {
 			File folder = new File(args[0]);
 			File output = new File(args[1]);
